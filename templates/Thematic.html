@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Result for Search</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+    </head>   
+    <header> <h1>Your Presets</h1>   
+    </header>  
+    <body>
+        <br></br><br></br><br></br>
+        <div class = "results">
+            {%for number in edittedList%}
+                <a href="{{url_for('static', filename=number+'.jpg')}}"><img src="{{url_for('static', filename=number+'.jpg')}}" alt= pic width='300' height='300'> </a>
+            {%endfor%}
+        </div>
+        <br><br>
+    </body>
+</html

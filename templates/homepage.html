@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{page_title}}</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+</head>
+<body background="https://unsplash.com/photos/AJgFLjnmSs4">
+    <h2 class = "homepage">Thematic</h2>
+    <br></br>
+<div class = "search">
+<form action="photo" method="get">
+    <input style="width:300px; height:30px;font-family:'Comfortaa';font-size: large; "type="text" class='text' id="searchterm" name="searchterm" placeholder="Search Photos"/>   
+    <input style="height:30px;font-family:'Comfortaa';"type="submit" value="Search" name="gobtn"/> </form>
+</div>
+</body>
+</html>

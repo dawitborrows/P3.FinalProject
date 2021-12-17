@@ -1,0 +1,107 @@
+header {
+    position: fixed;
+    width: 1400px;
+    height: 50px;
+    background-color: rgb(73, 73, 73);
+    padding-bottom: 6em;
+    align-content: center;
+    padding-top: 1em;
+    margin: 0 auto;
+    top: 0;
+  }
+
+h1 {        
+    color:bisque;
+    font-size: 60px;
+    font-family:"Comfortaa";
+    margin: 0px;
+    text-align: center;
+    position:sticky;
+    z-index: 10;
+}
+
+h2 {        
+    color:bisque;
+    font-size: 80px;
+    font-family:"Comfortaa";
+    margin: 0px;
+    text-align: center;
+    position:sticky;
+    z-index: 10;
+}
+
+.homepage {
+    padding-top: 3em;
+}
+
+body {
+    background-color:rgb(73, 73, 73);
+    align-content: center;
+}
+
+p {
+    padding-top: 5em;
+    text-align: center;
+    font-size: 40px;
+    font-family:"Comfortaa";
+    color: bisque;
+    bottom: 0;
+}
+p p1 {
+    padding-top: 3em;
+    padding-bottom:-10%;
+    text-align: center;
+    font-size: 40px;
+    font-family:"Comfortaa";
+    color: bisque;
+}
+.search form{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+table td {
+    position:fixed
+}
+.text{
+    size:50in;
+    color:rgb(73, 73, 73);
+}
+
+.search form[type=text]{
+    text-align: center;
+}
+
+.gallery {
+    padding-left:4em;
+
+}
+.gallery input[type=submit] {
+    color:red;
+    text-align: center;
+    position:relative;
+    size: 60px;
+}
+.gallery img {
+    border-radius: 5%;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    cursor:pointer
+}
+
+.results {
+    padding-top: 4em;
+    padding-left:6em;
+}
+
+.results img{
+    border-radius: 5%;
+    align-content: center;
+}
+
+.results img:hover {
+    transform: scale(1.05);
+    cursor:pointer
+}
